@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="decision_answer" label="Contract Template" max_length="40" name="x_snc_dd_fd_madrid_contract_template" type="collection">
+        <element label="Template" max_length="32" name="template" reference="ast_contract" type="reference"/>
+        <index name="index">
+            <element name="template"/>
+        </index>
+    </element>
+</database>

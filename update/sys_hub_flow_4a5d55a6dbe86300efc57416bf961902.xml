@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Add comment to case as user</description>
+        <internal_name>run-as_demonstration</internal_name>
+        <label_cache>[{"name":"03394681-3a8d-4042-8ffa-9887f90cd6e0.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"03394681-3a8d-4042-8ffa-9887f90cd6e0.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Run-As demonstration</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 16:20:11</sys_created_on>
+        <sys_id>4a5d55a6dbe86300efc57416bf961902</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Run-As demonstration</sys_name>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>sys_hub_flow_4a5d55a6dbe86300efc57416bf961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 17:57:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a5d55a6dbe86300efc57416bf961902"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4a5d55a6dbe86300efc57416bf961902"/>
+</record_update>

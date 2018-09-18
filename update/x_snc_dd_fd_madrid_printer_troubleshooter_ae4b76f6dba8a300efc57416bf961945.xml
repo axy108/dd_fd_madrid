@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_dd_fd_madrid_printer_troubleshooter">
+    <x_snc_dd_fd_madrid_printer_troubleshooter action="INSERT_OR_UPDATE">
+        <cable>false</cable>
+        <ink>true</ink>
+        <name>Flashing light - still prints - and is recognized</name>
+        <paper>false</paper>
+        <power>false</power>
+        <software>false</software>
+        <sys_class_name>x_snc_dd_fd_madrid_printer_troubleshooter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 17:51:08</sys_created_on>
+        <sys_decision/>
+        <sys_domain>global</sys_domain>
+        <sys_id>ae4b76f6dba8a300efc57416bf961945</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Flashing light - still prints - and is recognized</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>x_snc_dd_fd_madrid_printer_troubleshooter_ae4b76f6dba8a300efc57416bf961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 17:54:24</sys_updated_on>
+    </x_snc_dd_fd_madrid_printer_troubleshooter>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="decision_answer" label="Printer troubleshooter" max_length="40" name="x_snc_dd_fd_madrid_printer_troubleshooter" type="collection">
+        <element label="Check the printer-computer cable" max_length="40" name="cable" type="boolean"/>
+        <element label="Check/Replace ink" max_length="40" name="ink" type="boolean"/>
+        <element label="Check for paper jam" max_length="40" name="paper" type="boolean"/>
+        <element label="Check the power cable" max_length="40" name="power" type="boolean"/>
+        <element label="Ensure printer software is installed" max_length="40" name="software" type="boolean"/>
+    </element>
+</database>

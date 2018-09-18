@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment>Get all open Incident tasks</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Do Until demonstration">7d411351dba82300efc57416bf96193e</flow>
+        <order>1.1</order>
+        <parent_ui_id>44f4d57d-c09c-4fd1-8087-163dfeeef108</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 03:37:09</sys_created_on>
+        <sys_id>e3e15791dba82300efc57416bf961905</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e3e15791dba82300efc57416bf961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 16:39:21</sys_updated_on>
+        <ui_id>68f06f64-7d3c-4615-852b-dcff516c6330</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3e15791dba82300efc57416bf961905"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3e15791dba82300efc57416bf961905</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 03:37:09</sys_created_on>
+        <sys_id>6fe15791dba82300efc57416bf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 03:37:09</sys_updated_on>
+        <value>incident_task</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3e15791dba82300efc57416bf961905"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e3e15791dba82300efc57416bf961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 03:37:09</sys_created_on>
+        <sys_id>2be15791dba82300efc57416bf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 03:37:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d1c56ec50b30030085c083eb37673a50</table>
+        <value>active=true^incident={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e3e15791dba82300efc57416bf961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 03:37:09</sys_created_on>
+        <sys_id>ebe15791dba82300efc57416bf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 03:37:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d1c56ec50b30030085c083eb37673a50</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

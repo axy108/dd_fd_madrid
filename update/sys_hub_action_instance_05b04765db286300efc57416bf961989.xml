@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Decision Table demonstration">7a7e7aeddbe46300efc57416bf96191e</flow>
+        <order>1.1.1</order>
+        <parent_ui_id>7d73b293-0dfd-4ca1-b0e2-db2c5d6117e4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 21:00:22</sys_created_on>
+        <sys_id>05b04765db286300efc57416bf961989</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>sys_hub_action_instance_05b04765db286300efc57416bf961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-16 02:07:00</sys_updated_on>
+        <ui_id>48211357-0595-4b7c-b9db-69660df2f21a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=05b04765db286300efc57416bf961989"/>
+    <sys_element_mapping action="delete_multiple" query="id=05b04765db286300efc57416bf961989"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>05b04765db286300efc57416bf961989</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 21:00:22</sys_created_on>
+        <sys_id>ddb04765db286300efc57416bf96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 21:00:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{Created or Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+</record_update>

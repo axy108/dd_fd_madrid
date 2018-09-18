@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Simple example showing log/report pathing</description>
+        <internal_name>decision_table_demonstration</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.active","label":"Trigger➛Incident Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"incident","column_name":"active"},{"name":"02e040c9-df7d-43a1-8671-79f13733ca16.table_name","label":"1.5.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"02e040c9-df7d-43a1-8671-79f13733ca16.record","label":"1.5.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Incident Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"9ec0f668-4644-4e58-8816-72e07116d1da.email","label":"1.3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"5a91b7f2-5872-4905-9fbc-625eba41f221.table_name","label":"1.2.1➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name"},{"name":"5a91b7f2-5872-4905-9fbc-625eba41f221.record","label":"1.2.1➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"76491b6c-387e-4baa-ab2b-a04868ff723e.answer","label":"1➛Decision Answer Record","reference":"decision_answer","reference_display":"Decision Answer","type":"reference","base_type":"reference"},{"name":"76491b6c-387e-4baa-ab2b-a04868ff723e.answer.name","label":"1➛Decision Answer Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"decision_answer","column_name":"name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Decision Table demonstration</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 20:50:38</sys_created_on>
+        <sys_id>7a7e7aeddbe46300efc57416bf96191e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Decision Table demonstration</sys_name>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>sys_hub_flow_7a7e7aeddbe46300efc57416bf96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-16 02:06:59</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a7e7aeddbe46300efc57416bf96191e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7a7e7aeddbe46300efc57416bf96191e"/>
+</record_update>

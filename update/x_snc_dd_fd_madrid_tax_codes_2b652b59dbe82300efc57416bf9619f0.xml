@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_dd_fd_madrid_tax_codes">
+    <x_snc_dd_fd_madrid_tax_codes action="INSERT_OR_UPDATE">
+        <country>us</country>
+        <income>500001</income>
+        <marriage_status>individual</marriage_status>
+        <name>over $500,000</name>
+        <percentage>37</percentage>
+        <range_bottom>500000</range_bottom>
+        <range_top>1000000000</range_top>
+        <sys_class_name>x_snc_dd_fd_madrid_tax_codes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 05:02:29</sys_created_on>
+        <sys_decision/>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b652b59dbe82300efc57416bf9619f0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>over $500,000</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+        <sys_update_name>x_snc_dd_fd_madrid_tax_codes_2b652b59dbe82300efc57416bf9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-16 02:40:38</sys_updated_on>
+        <year>2018</year>
+    </x_snc_dd_fd_madrid_tax_codes>
+</record_update>

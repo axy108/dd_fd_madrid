@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="decision_answer" label="Tax Codes" max_length="40" name="x_snc_dd_fd_madrid_tax_codes" type="collection">
+        <element choice="1" default="us" label="Country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="United States" sequence="100" value="us"/>
+                <element inactive_on_update="false" label="Australia" sequence="200" value="as"/>
+                <element inactive_on_update="false" label="Canada" sequence="300" value="ca"/>
+                <element inactive_on_update="false" label="United Kingdom" sequence="400" value="uk"/>
+            </choice>
+        </element>
+        <element label="Income" max_length="20" name="income" type="currency"/>
+        <element choice="1" default="individual" label="Marriage Status" max_length="40" name="marriage_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Individual" value="individual"/>
+                <element inactive_on_update="false" label="Married" value="married"/>
+            </choice>
+        </element>
+        <element label="Percentage" max_length="2" name="percentage" type="integer"/>
+        <element label="Income Range Bottom" max_length="20" name="range_bottom" type="currency"/>
+        <element label="Income Range Top" max_length="20" name="range_top" type="currency"/>
+        <element default="2018" label="Year" max_length="40" name="year" type="integer"/>
+    </element>
+</database>

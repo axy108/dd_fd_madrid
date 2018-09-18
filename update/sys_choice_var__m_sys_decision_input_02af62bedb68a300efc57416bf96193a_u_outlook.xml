@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_outlook" table="var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_outlook</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rain</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:28:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c78632f2dba8a300efc57416bf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:28:35</sys_updated_on>
+            <value>rain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_outlook</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunny</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:27:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3067ab2dba8a300efc57416bf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:27:38</sys_updated_on>
+            <value>sunny</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_outlook</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overcast</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:28:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e66beb2dba8a300efc57416bf961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:28:03</sys_updated_on>
+            <value>overcast</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_outlook</element>
+            <name>var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:27:38</sys_created_on>
+            <sys_id>ff56babedb68a300efc57416bf961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_outlook</sys_name>
+            <sys_package display_value="Flow Designer - Demo Days - Madrid" source="x_snc_dd_fd_madrid">c9850695dba02300efc57416bf9619fe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flow Designer - Demo Days - Madrid">c9850695dba02300efc57416bf9619fe</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_input_02af62bedb68a300efc57416bf96193a_u_outlook</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:27:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

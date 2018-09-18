@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="decision_answer" label="Simple Choice" max_length="40" name="x_snc_dd_fd_madrid_simple_choice" type="collection">
+        <element label="Description" max_length="255" name="description" type="string"/>
+    </element>
+</database>
